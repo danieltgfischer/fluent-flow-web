@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "heading": "Gestión Financiera Inteligente, Segura y Simple",
+    "subheading": "Desde presupuestos sin esfuerzo hasta información de inversiones en tiempo real, Finwise te permite controlar tu dinero como nunca antes"
+  },
+  "cta": {
+    "heading": "Únete a Más de 1 Millón de Usuarios Para Transformar Tus Finanzas",
+    "subheading": "Tu camino hacia la libertad financiera comienza aquí. ¡Descarga Finwise hoy y da el primer paso hacia un futuro financiero más brillante!"
+  },
+  "footer": {
+    "subheading": "Potenciando empresas con soluciones de tecnología financiera de vanguardia.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactUs": "Contáctanos",
+    "email": "Correo:",
+    "phone": "Teléfono:",
+    "copyright": "Copyright © {year} {siteName}. Todos los derechos reservados."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "¡Pregúntanos lo que quieras!",
+    "contactEmail": "ayuda@finwise.com",
+    "questions": [
+      {
+        "question": "¿Es Finwise seguro?",
+        "answer": "Absolutamente. Utilizamos encriptación de nivel bancario para proteger tus datos y nunca almacenamos tu información de inicio de sesión. Además, nuestra autenticación biométrica añade una capa extra de seguridad."
+      },
+      {
+        "question": "¿Puedo usar Finwise en múltiples dispositivos?",
+        "answer": "¡Absolutamente! Tu cuenta de Finwise se sincroniza perfectamente en todos tus dispositivos: smartphone, tablet y ordenador."
+      },
+      {
+        "question": "¿Puedo conectar todas mis cuentas bancarias?",
+        "answer": "¡Sí! Finwise permite conexiones con más de 10,000 instituciones financieras en todo el mundo. Simplemente inicia sesión a través de nuestro portal seguro para vincular tus cuentas."
+      },
+      {
+        "question": "¿Necesito experiencia financiera para usar las funciones de inversión?",
+        "answer": "¡Para nada! Nuestras carteras seleccionadas por expertos y recursos educativos hacen que la inversión sea accesible para todos, independientemente de su nivel de experiencia."
+      },
+      {
+        "question": "¿Qué pasa si necesito ayuda para usar la aplicación?",
+        "answer": "Nuestro dedicado equipo de soporte está disponible 24/7 a través de chat o correo electrónico. Además, ofrecemos extensos tutoriales dentro de la aplicación y una completa base de conocimientos para ayudarte a sacar el máximo provecho de Finwise."
+      }
+    ]
+  },
+  "header": {
+    "download": "Descargar",
+    "getStarted": "Comenzar",
+    "toggleNavigation": "Alternar navegación"
+  },
+  "appStore": {
+    "downloadOn": "Descárgalo en el",
+    "appStore": "App Store"
+  },
+  "playStore": {
+    "getItOn": "CONSÍGUELO EN",
+    "googlePlay": "Google Play"
+  },
+  "menuItems": {
+    "features": "Características",
+    "pricing": "Precios",
+    "testimonials": "Testimonios"
+  },
+  "benefits": {
+    "smartBudgeting": {
+      "title": "Presupuesto Inteligente",
+      "description": "Elimina las conjeturas al administrar tu dinero. Nuestra herramienta de presupuesto impulsada por IA se adapta a tu estilo de vida y te ayuda a mantenerte en el camino correcto.",
+      "bullets": {
+        "intelligentCategorization": {
+          "title": "Categorización Inteligente",
+          "description": "Clasifica automáticamente tus transacciones para obtener información clara como el cristal."
+        },
+        "customizableGoals": {
+          "title": "Objetivos Personalizables",
+          "description": "Establece y rastrea objetivos financieros que son importantes para ti."
+        },
+        "predictiveAnalysis": {
+          "title": "Análisis Predictivo",
+          "description": "Adelántate a tus finanzas con pronósticos de gastos y alertas."
+        }
+      }
+    },
+    "seamlessInvesting": {
+      "title": "Inversión sin Complicaciones",
+      "description": "Comienza a construir riqueza hoy, sin necesidad de un título financiero. Finwise hace que la inversión sea accesible y sencilla.",
+      "bullets": {
+        "microInvesting": {
+          "title": "Micro-Inversión",
+          "description": "Comienza con tan solo $1 y observa cómo crece tu dinero."
+        },
+        "expertPortfolios": {
+          "title": "Carteras de Expertos",
+          "description": "Elige entre estrategias de inversión adaptadas a tu tolerancia al riesgo."
+        },
+        "realTimePerformance": {
+          "title": "Rendimiento en Tiempo Real",
+          "description": "Rastrea tus inversiones con métricas y visuales fáciles de entender."
+        }
+      }
+    },
+    "bankGradeSecurity": {
+      "title": "Seguridad de Nivel Bancario",
+      "description": "Tus datos financieros merecen la mejor protección. Descansa tranquilo sabiendo que Finwise emplea medidas de seguridad de vanguardia.",
+      "bullets": {
+        "militaryGradeEncryption": {
+          "title": "Encriptación de Nivel Militar",
+          "description": "Tu información está protegida con el más alto nivel de encriptación."
+        },
+        "biometricAuthentication": {
+          "title": "Autenticación Biométrica",
+          "description": "Accede a tu cuenta de forma segura con reconocimiento de huellas dactilares o facial."
+        },
+        "realTimeFraudDetection": {
+          "title": "Detección de Fraude en Tiempo Real",
+          "description": "Nuestro sistema monitorea constantemente actividades sospechosas para mantener tu dinero seguro."
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "johnSmith": {
+      "name": "John Smith",
+      "role": "CEO de Compañía",
+      "message": "Las ideas impulsadas por IA de Finwise han transformado nuestra forma de abordar la planificación financiera para nuestros clientes. Es un recurso invaluable en el panorama financiero moderno."
+    },
+    "janeDoe": {
+      "name": "Jane Doe",
+      "role": "CTO de Startup",
+      "message": "Como CTO, estoy impresionada por las robustas medidas de seguridad y las integraciones perfectas de Finwise. Es raro encontrar una aplicación que equilibre la facilidad de uso con una tecnología tan avanzada."
+    },
+    "emilyJohnson": {
+      "name": "Emily Johnson",
+      "role": "Gerente de Producto",
+      "message": "Finwise está revolucionando la gestión de finanzas personales. Su diseño intuitivo y sus potentes características lo convierten en una herramienta indispensable para cualquier persona seria sobre el crecimiento financiero."
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "heading": "Smart, Secure, Simple Financial Management",
+    "subheading": "From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before"
+  },
+  "cta": {
+    "heading": "Join Over 1 Million Users To Transform Your Finances",
+    "subheading": "Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!"
+  },
+  "footer": {
+    "subheading": "Empowering businesses with cutting-edge financial technology solutions.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "email": "Email:",
+    "phone": "Phone:",
+    "copyright": "Copyright © {year} {siteName}. All rights reserved."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Ask us anything!",
+    "contactEmail": "help@finwise.com",
+    "questions": [
+      {
+        "question": "Is Finwise secure?",
+        "answer": "Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security."
+      },
+      {
+        "question": "Can I use Finwise on multiple devices?",
+        "answer": "Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer."
+      },
+      {
+        "question": "Can I connect all my bank accounts?",
+        "answer": "Yes! Finwise supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts."
+      },
+      {
+        "question": "Do I need any financial expertise to use the investing features?",
+        "answer": "Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level."
+      },
+      {
+        "question": "What if I need help using the app?",
+        "answer": "Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise."
+      }
+    ]
+  },
+  "header": {
+    "download": "Download",
+    "getStarted": "Get Started",
+    "toggleNavigation": "Toggle navigation"
+  },
+  "appStore": {
+    "downloadOn": "Download on the",
+    "appStore": "App Store"
+  },
+  "playStore": {
+    "getItOn": "GET IT ON",
+    "googlePlay": "Google Play"
+  },
+  "menuItems": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials"
+  },
+  "benefits": {
+    "smartBudgeting": {
+      "title": "Smart Budgeting",
+      "description": "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+      "bullets": {
+        "intelligentCategorization": {
+          "title": "Intelligent Categorization",
+          "description": "Automatically sorts your transactions for crystal-clear insights."
+        },
+        "customizableGoals": {
+          "title": "Customizable Goals",
+          "description": "Set and track financial objectives that matter to you."
+        },
+        "predictiveAnalysis": {
+          "title": "Predictive Analysis",
+          "description": "Get ahead of your finances with spending forecasts and alerts."
+        }
+      }
+    },
+    "seamlessInvesting": {
+      "title": "Seamless Investing",
+      "description": "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+      "bullets": {
+        "microInvesting": {
+          "title": "Micro-Investing",
+          "description": "Begin with as little as $1 and watch your money grow."
+        },
+        "expertPortfolios": {
+          "title": "Expert Portfolios",
+          "description": "Choose from investment strategies tailored to your risk tolerance."
+        },
+        "realTimePerformance": {
+          "title": "Real-Time Performance",
+          "description": "Track your investments with easy-to-understand metrics and visuals."
+        }
+      }
+    },
+    "bankGradeSecurity": {
+      "title": "Bank-Grade Security",
+      "description": "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+      "bullets": {
+        "militaryGradeEncryption": {
+          "title": "Military-Grade Encryption",
+          "description": "Your information is safeguarded with the highest level of encryption."
+        },
+        "biometricAuthentication": {
+          "title": "Biometric Authentication",
+          "description": "Access your account securely with fingerprint or facial recognition."
+        },
+        "realTimeFraudDetection": {
+          "title": "Real-Time Fraud Detection",
+          "description": "Our system constantly monitors for suspicious activity to keep your money safe."
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "johnSmith": {
+      "name": "John Smith",
+      "role": "CEO at Company",
+      "message": "Finwise's AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape."
+    },
+    "janeDoe": {
+      "name": "Jane Doe",
+      "role": "CTO at Startup",
+      "message": "As a CTO, I'm impressed by Finwise's robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology."
+    },
+    "emilyJohnson": {
+      "name": "Emily Johnson",
+      "role": "Product Manager",
+      "message": "Finwise is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth."
+    }
+  }
+}

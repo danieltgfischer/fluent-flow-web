@@ -1,12 +1,16 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import { FaFingerprint } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 import { siteDetails } from "@/data/siteDetails";
 import { footerDetails } from "@/data/footer";
 import { getPlatformIconByName } from "@/utils";
 
 const Footer: React.FC = () => {
+  const t = useTranslations("footer");
+
   return (
     <footer className="bg-hero-background text-foreground py-10">
       <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -17,12 +21,10 @@ const Footer: React.FC = () => {
               {siteDetails.siteName}
             </h3>
           </Link>
-          <p className="mt-3.5 text-foreground-accent">
-            {footerDetails.subheading}
-          </p>
+          <p className="mt-3.5 text-foreground-accent">{t("subheading")}</p>
         </div>
         <div>
-          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+          <h4 className="text-lg font-semibold mb-4">{t("quickLinks")}</h4>
           <ul className="text-foreground-accent">
             {footerDetails.quickLinks.map((link) => (
               <li key={link.text} className="mb-2">
@@ -34,14 +36,14 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div>
-          <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+          <h4 className="text-lg font-semibold mb-4">{t("contactUs")}</h4>
 
           {footerDetails.email && (
             <a
               href={`mailto:${footerDetails.email}`}
               className="block text-foreground-accent hover:text-foreground"
             >
-              Email: {footerDetails.email}
+              {t("email")} {footerDetails.email}
             </a>
           )}
 
@@ -50,7 +52,7 @@ const Footer: React.FC = () => {
               href={`tel:${footerDetails.telephone}`}
               className="block text-foreground-accent hover:text-foreground"
             >
-              Phone: {footerDetails.telephone}
+              {t("phone")} {footerDetails.telephone}
             </a>
           )}
 
@@ -68,6 +70,7 @@ const Footer: React.FC = () => {
                     </Link>
                   );
                 }
+                return null;
               })}
             </div>
           )}
@@ -75,8 +78,10 @@ const Footer: React.FC = () => {
       </div>
       <div className="mt-8 md:text-center text-foreground-accent px-6">
         <p>
-          Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}.
-          All rights reserved.
+          {t("copyright", {
+            year: new Date().getFullYear(),
+            siteName: siteDetails.siteName,
+          })}
         </p>
       </div>
     </footer>
