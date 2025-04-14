@@ -1,10 +1,8 @@
 "use client";
-
 import Link from "next/link";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { HiOutlineXMark, HiBars3 } from "react-icons/hi2";
-import { FaFingerprint } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 
@@ -12,7 +10,7 @@ import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
 import { menuItems } from "@/data/menuItems";
 import { routing } from "@/i18n/routing";
-
+import Image from "next/image";
 const Header: React.FC = () => {
   const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +31,12 @@ const Header: React.FC = () => {
         <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <FaFingerprint className="text-foreground min-w-fit w-7 h-7" />
+            <Image
+              src={siteDetails.siteLogo}
+              alt="logo"
+              width={32}
+              height={32}
+            />
             <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
               {siteDetails.siteName}
             </span>
@@ -41,7 +44,7 @@ const Header: React.FC = () => {
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6 items-center">
-            {menuItems.map((item) => (
+            {/* {menuItems.map((item) => (
               <li key={item.text}>
                 <Link
                   href={item.url}
@@ -50,7 +53,7 @@ const Header: React.FC = () => {
                   {t(`menuItems.${item.text.toLowerCase()}`)}
                 </Link>
               </li>
-            ))}
+            ))} */}
 
             {/* Locale Switcher */}
             <li className="flex space-x-2">
@@ -67,15 +70,6 @@ const Header: React.FC = () => {
                   {locale.toUpperCase()}
                 </button>
               ))}
-            </li>
-
-            <li>
-              <Link
-                href="#cta"
-                className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
-              >
-                {t("header.download")}
-              </Link>
             </li>
           </ul>
 
@@ -145,7 +139,7 @@ const Header: React.FC = () => {
               </div>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 href="#cta"
                 className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"
@@ -153,7 +147,7 @@ const Header: React.FC = () => {
               >
                 {t("header.getStarted")}
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </Transition>

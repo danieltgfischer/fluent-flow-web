@@ -13,7 +13,9 @@
     "contactUs": "Fale Conosco",
     "email": "Email:",
     "phone": "Telefone:",
-    "copyright": "Copyright © {year} {siteName}. Todos os direitos reservados."
+    "copyright": "Copyright © {year} {siteName}. Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
   },
   "faq": {
     "title": "Perguntas Frequentes",

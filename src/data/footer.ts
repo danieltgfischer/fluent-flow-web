@@ -11,18 +11,6 @@ export const footerDetails: {
     "Empowering businesses with cutting-edge financial technology solutions.",
   quickLinks: [
     {
-      text: "Features",
-      url: "#features",
-    },
-    {
-      text: "Pricing",
-      url: "#pricing",
-    },
-    {
-      text: "Testimonials",
-      url: "#testimonials",
-    },
-    {
       text: "Terms & Conditions",
       url: "/terms",
       isLocalizedPath: true,
