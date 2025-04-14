@@ -6,17 +6,25 @@ import { Transition } from "@headlessui/react";
 import { HiOutlineXMark, HiBars3 } from "react-icons/hi2";
 import { FaFingerprint } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import { usePathname, useRouter } from "@/i18n/navigation";
 
 import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
 import { menuItems } from "@/data/menuItems";
+import { routing } from "@/i18n/routing";
 
 const Header: React.FC = () => {
   const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const changeLocale = (locale: string) => {
+    router.replace(pathname, { locale });
   };
 
   return (
@@ -32,7 +40,7 @@ const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex space-x-6">
+          <ul className="hidden md:flex space-x-6 items-center">
             {menuItems.map((item) => (
               <li key={item.text}>
                 <Link
@@ -43,6 +51,24 @@ const Header: React.FC = () => {
                 </Link>
               </li>
             ))}
+
+            {/* Locale Switcher */}
+            <li className="flex space-x-2">
+              {routing.locales.map((locale) => (
+                <button
+                  key={locale}
+                  onClick={() => changeLocale(locale)}
+                  className={`text-sm px-2 py-1 rounded ${
+                    pathname.startsWith(`/${locale}`)
+                      ? "bg-primary text-black"
+                      : "text-foreground hover:bg-gray-100"
+                  }`}
+                >
+                  {locale.toUpperCase()}
+                </button>
+              ))}
+            </li>
+
             <li>
               <Link
                 href="#cta"
@@ -96,6 +122,29 @@ const Header: React.FC = () => {
                 </Link>
               </li>
             ))}
+
+            {/* Mobile Locale Switcher */}
+            <li>
+              <div className="flex flex-row space-x-2 py-2">
+                {routing.locales.map((locale) => (
+                  <button
+                    key={locale}
+                    onClick={() => {
+                      changeLocale(locale);
+                      toggleMenu();
+                    }}
+                    className={`text-sm px-2 py-1 rounded ${
+                      pathname.startsWith(`/${locale}`)
+                        ? "bg-primary text-black"
+                        : "text-foreground hover:bg-gray-100"
+                    }`}
+                  >
+                    {locale.toUpperCase()}
+                  </button>
+                ))}
+              </div>
+            </li>
+
             <li>
               <Link
                 href="#cta"
