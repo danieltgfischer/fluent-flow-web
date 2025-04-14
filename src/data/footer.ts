@@ -25,10 +25,12 @@ export const footerDetails: {
     {
       text: "Terms & Conditions",
       url: "/terms",
+      isLocalizedPath: true,
     },
     {
       text: "Privacy Policy",
       url: "/privacy",
+      isLocalizedPath: true,
     },
   ],
   email: "address@yoursite.com",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FaFingerprint } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import { Link as IntlLink } from "@/i18n/navigation";
 
 import { siteDetails } from "@/data/siteDetails";
 import { footerDetails } from "@/data/footer";
@@ -28,9 +29,15 @@ const Footer: React.FC = () => {
           <ul className="text-foreground-accent">
             {footerDetails.quickLinks.map((link) => (
               <li key={link.text} className="mb-2">
-                <Link href={link.url} className="hover:text-foreground">
-                  {link.text}
-                </Link>
+                {link.isLocalizedPath ? (
+                  <IntlLink href={link.url} className="hover:text-foreground">
+                    {link.text}
+                  </IntlLink>
+                ) : (
+                  <Link href={link.url} className="hover:text-foreground">
+                    {link.text}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

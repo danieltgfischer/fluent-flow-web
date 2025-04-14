@@ -133,5 +133,100 @@
       "role": "Gerente de Producto",
       "message": "Finwise está revolucionando la gestión de finanzas personales. Su diseño intuitivo y sus potentes características lo convierten en una herramienta indispensable para cualquier persona seria sobre el crecimiento financiero."
     }
+  },
+  "Terms": {
+    "title": "Términos y Condiciones",
+    "description": "Por favor, lea estos términos y condiciones detenidamente antes de usar nuestro servicio.",
+    "section1": {
+      "title": "1. Introducción",
+      "content": "Bienvenido a nuestra aplicación. Al acceder o utilizar nuestra aplicación, acepta estar sujeto a estos Términos y Condiciones y a nuestra Política de Privacidad."
+    },
+    "section2": {
+      "title": "2. Definiciones",
+      "content": "\"Servicio\" se refiere a la aplicación.<br />\"Usted\" se refiere al individuo que accede o utiliza el Servicio, o la empresa u otra entidad legal en nombre de la cual dicho individuo está accediendo o utilizando el Servicio."
+    },
+    "section3": {
+      "title": "3. Términos de Uso",
+      "intro": "Usted se compromete a no hacer un mal uso de nuestro Servicio ni ayudar a nadie más a hacerlo. Por ejemplo, no debe intentar:",
+      "items": {
+        "1": "Investigar, escanear o probar la vulnerabilidad de cualquier sistema o red",
+        "2": "Violar o eludir cualquier medida de seguridad o autenticación",
+        "3": "Acceder, manipular o utilizar áreas no públicas del Servicio",
+        "4": "Interferir o interrumpir a cualquier usuario, host o red"
+      }
+    },
+    "section4": {
+      "title": "4. Propiedad Intelectual",
+      "content": "Nuestro Servicio y su contenido original, características y funcionalidad son y seguirán siendo propiedad exclusiva de nuestra empresa y sus licenciantes."
+    },
+    "section5": {
+      "title": "5. Terminación",
+      "content": "Podemos terminar o suspender su acceso a nuestro Servicio inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluso sin limitación si incumple los Términos."
+    },
+    "section6": {
+      "title": "6. Limitación de Responsabilidad",
+      "content": "En ningún caso seremos responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo sin limitación, pérdida de beneficios, datos, uso, buena voluntad u otras pérdidas intangibles."
+    },
+    "section7": {
+      "title": "7. Cambios",
+      "content": "Nos reservamos el derecho, a nuestra sola discreción, de modificar o reemplazar estos Términos en cualquier momento."
+    },
+    "section8": {
+      "title": "8. Contáctenos",
+      "content": "Si tiene alguna pregunta sobre estos Términos, por favor contáctenos."
+    }
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "description": "Esta Política de Privacidad describe cómo recopilamos, usamos y compartimos su información personal.",
+    "section1": {
+      "title": "1. Información que Recopilamos",
+      "intro": "Podemos recopilar los siguientes tipos de información:",
+      "items": {
+        "1": "<strong>Información Personal:</strong> Como su nombre, dirección de correo electrónico, número de teléfono y otros datos de contacto cuando se registra para una cuenta o nos contacta.",
+        "2": "<strong>Datos de Uso:</strong> Información sobre cómo utiliza nuestra aplicación, incluidos los tiempos de acceso, páginas vistas y las rutas por las que accede a nuestra aplicación.",
+        "3": "<strong>Información del Dispositivo:</strong> Información sobre el dispositivo que utiliza para acceder a nuestra aplicación, incluido el modelo de hardware, sistema operativo y tipo de navegador."
+      }
+    },
+    "section2": {
+      "title": "2. Cómo Utilizamos su Información",
+      "intro": "Utilizamos la información que recopilamos para:",
+      "items": {
+        "1": "Proporcionar, mantener y mejorar nuestros servicios",
+        "2": "Procesar transacciones y enviar información relacionada",
+        "3": "Responder a comentarios, preguntas y solicitudes",
+        "4": "Enviarle avisos técnicos, actualizaciones, alertas de seguridad y mensajes de soporte",
+        "5": "Comprender y analizar las tendencias de uso de nuestros usuarios"
+      }
+    },
+    "section3": {
+      "title": "3. Compartición y Divulgación de Información",
+      "intro": "No compartimos su información personal excepto en las siguientes circunstancias limitadas:",
+      "items": {
+        "1": "<strong>Con su Consentimiento:</strong> Compartiremos su información personal con empresas, organizaciones o individuos fuera de nuestra empresa cuando tengamos su consentimiento para hacerlo.",
+        "2": "<strong>Por Razones Legales:</strong> Compartiremos información personal si tenemos la creencia de buena fe de que el acceso, uso, preservación o divulgación de la información es razonablemente necesario para cumplir con cualquier ley, regulación, proceso legal o solicitud gubernamental aplicable.",
+        "3": "<strong>Con Proveedores de Servicios:</strong> Podemos compartir su información con proveedores externos, consultores y otros proveedores de servicios que trabajan en nuestro nombre."
+      }
+    },
+    "section4": {
+      "title": "4. Seguridad de Datos",
+      "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger la información personal que recopilamos y procesamos sobre usted. Las medidas que tomamos están diseñadas para proporcionar un nivel de seguridad apropiado al riesgo de procesar su información personal."
+    },
+    "section5": {
+      "title": "5. Sus Derechos",
+      "content": "Dependiendo de su ubicación, puede tener ciertos derechos con respecto a su información personal, como el derecho a acceder, corregir, eliminar o restringir el procesamiento de su información personal."
+    },
+    "section6": {
+      "title": "6. Privacidad de los Niños",
+      "content": "Nuestro Servicio no está dirigido a niños menores de 13 años, y no recopilamos a sabiendas información personal de niños menores de 13 años."
+    },
+    "section7": {
+      "title": "7. Cambios a Esta Política de Privacidad",
+      "content": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página."
+    },
+    "section8": {
+      "title": "8. Contáctenos",
+      "content": "Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos."
+    }
   }
 }

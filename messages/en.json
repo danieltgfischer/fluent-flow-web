@@ -133,5 +133,100 @@
       "role": "Product Manager",
       "message": "Finwise is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth."
     }
+  },
+  "Terms": {
+    "title": "Terms and Conditions",
+    "description": "Please read these terms and conditions carefully before using our service.",
+    "section1": {
+      "title": "1. Introduction",
+      "content": "Welcome to our application. By accessing or using our application, you agree to be bound by these Terms and Conditions and our Privacy Policy."
+    },
+    "section2": {
+      "title": "2. Definitions",
+      "content": "\"Service\" refers to the application.<br />\"You\" refers to the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service."
+    },
+    "section3": {
+      "title": "3. Usage Terms",
+      "intro": "You agree not to misuse our Service or help anyone else do so. For example, you must not attempt to:",
+      "items": {
+        "1": "Probe, scan, or test the vulnerability of any system or network",
+        "2": "Breach or otherwise circumvent any security or authentication measures",
+        "3": "Access, tamper with, or use non-public areas of the Service",
+        "4": "Interfere with or disrupt any user, host, or network"
+      }
+    },
+    "section4": {
+      "title": "4. Intellectual Property",
+      "content": "Our Service and its original content, features, and functionality are and will remain the exclusive property of our company and its licensors."
+    },
+    "section5": {
+      "title": "5. Termination",
+      "content": "We may terminate or suspend your access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+    },
+    "section6": {
+      "title": "6. Limitation of Liability",
+      "content": "In no event shall we be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+    },
+    "section7": {
+      "title": "7. Changes",
+      "content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time."
+    },
+    "section8": {
+      "title": "8. Contact Us",
+      "content": "If you have any questions about these Terms, please contact us."
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "description": "This Privacy Policy describes how we collect, use, and share your personal information.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "intro": "We may collect the following types of information:",
+      "items": {
+        "1": "<strong>Personal Information:</strong> Such as your name, email address, phone number, and other contact details when you register for an account or contact us.",
+        "2": "<strong>Usage Data:</strong> Information about how you use our application, including access times, pages viewed, and the routes by which you access our application.",
+        "3": "<strong>Device Information:</strong> Information about the device you use to access our application, including hardware model, operating system, and browser type."
+      }
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "intro": "We use the information we collect to:",
+      "items": {
+        "1": "Provide, maintain, and improve our services",
+        "2": "Process transactions and send related information",
+        "3": "Respond to comments, questions, and requests",
+        "4": "Send you technical notices, updates, security alerts, and support messages",
+        "5": "Understand and analyze the usage trends of our users"
+      }
+    },
+    "section3": {
+      "title": "3. Information Sharing and Disclosure",
+      "intro": "We do not share your personal information except in the following limited circumstances:",
+      "items": {
+        "1": "<strong>With Your Consent:</strong> We will share your personal information with companies, organizations, or individuals outside of our company when we have your consent to do so.",
+        "2": "<strong>For Legal Reasons:</strong> We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to comply with any applicable law, regulation, legal process, or enforceable governmental request.",
+        "3": "<strong>With Service Providers:</strong> We may share your information with third-party vendors, consultants, and other service providers who are working on our behalf."
+      }
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect the personal information that we collect and process about you. The measures we take are designed to provide a level of security appropriate to the risk of processing your personal information."
+    },
+    "section5": {
+      "title": "5. Your Rights",
+      "content": "Depending on your location, you may have certain rights regarding your personal information, such as the right to access, correct, delete, or restrict processing of your personal information."
+    },
+    "section6": {
+      "title": "6. Children's Privacy",
+      "content": "Our Service is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13."
+    },
+    "section7": {
+      "title": "7. Changes to This Privacy Policy",
+      "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+    },
+    "section8": {
+      "title": "8. Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us."
+    }
   }
 }
