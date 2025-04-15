@@ -4,7 +4,7 @@ import Section from "@/components/Section";
 import { useTranslations } from "next-intl";
 
 const PrivacyPage: React.FC = () => {
-  const t = useTranslations("Privacy");
+  const t = useTranslations("privacy");
 
   return (
     <Container>

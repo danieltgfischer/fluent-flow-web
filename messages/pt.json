@@ -4,50 +4,13 @@
     "subheading": "Aprenda expressões do dia a dia, gírias e termos informais de forma fácil e divertida"
   },
   "cta": {
-    "heading": "Junte-se a Mais de 1 Milhão de Usuários Para Transformar Suas Finanças",
-    "subheading": "Sua jornada para a liberdade financeira começa aqui. Baixe o Finwise hoje e dê o primeiro passo em direção a um futuro financeiro mais brilhante!"
+    "heading": "Junte-se a mais de 10 mil usuários",
+    "subheading": "Entenda e fale o inglês falado no dia a dia, nívele seu inglês com o Fluent Flow"
   },
   "footer": {
-    "subheading": "Capacitando empresas com soluções de tecnologia financeira de ponta.",
-    "quickLinks": "Links Rápidos",
-    "contactUs": "Fale Conosco",
-    "email": "Email:",
-    "phone": "Telefone:",
     "copyright": "Copyright © {year} {siteName}. Todos os direitos reservados.",
     "privacyPolicy": "Política de Privacidade",
     "termsOfService": "Termos de Serviço"
-  },
-  "faq": {
-    "title": "Perguntas Frequentes",
-    "subtitle": "Pergunte-nos qualquer coisa!",
-    "contactEmail": "ajuda@finwise.com",
-    "questions": [
-      {
-        "question": "O Finwise é seguro?",
-        "answer": "Absolutamente. Utilizamos criptografia de nível bancário para proteger seus dados e nunca armazenamos suas informações de login. Além disso, nossa autenticação biométrica adiciona uma camada extra de segurança."
-      },
-      {
-        "question": "Posso usar o Finwise em vários dispositivos?",
-        "answer": "Com certeza! Sua conta Finwise sincroniza perfeitamente em todos os seus dispositivos - smartphone, tablet e computador."
-      },
-      {
-        "question": "Posso conectar todas as minhas contas bancárias?",
-        "answer": "Sim! O Finwise suporta conexões com mais de 10.000 instituições financeiras em todo o mundo. Basta fazer login através do nosso portal seguro para vincular suas contas."
-      },
-      {
-        "question": "Preciso de conhecimento financeiro para usar os recursos de investimento?",
-        "answer": "De forma alguma! Nossos portfólios selecionados por especialistas e recursos educacionais tornam o investimento acessível a todos, independentemente do nível de experiência."
-      },
-      {
-        "question": "E se eu precisar de ajuda para usar o aplicativo?",
-        "answer": "Nossa equipe de suporte dedicada está disponível 24/7 via chat ou email. Além disso, oferecemos tutoriais extensivos no aplicativo e uma base de conhecimento abrangente para ajudá-lo a aproveitar ao máximo o Finwise."
-      }
-    ]
-  },
-  "header": {
-    "download": "Baixar",
-    "getStarted": "Iniciar",
-    "toggleNavigation": "Alternar navegação"
   },
   "appStore": {
     "downloadOn": "Baixe na",
@@ -57,86 +20,55 @@
     "getItOn": "DISPONÍVEL NO",
     "googlePlay": "Google Play"
   },
-  "menuItems": {
-    "features": "Recursos",
-    "pricing": "Preços",
-    "testimonials": "Depoimentos"
-  },
   "benefits": {
-    "smartBudgeting": {
-      "title": "Orçamento Inteligente",
-      "description": "Elimine as suposições ao gerenciar seu dinheiro. Nossa ferramenta de orçamento baseada em IA se adapta ao seu estilo de vida e ajuda você a se manter no caminho certo.",
+    "section1": {
+      "title": "Fale inglês como um nativo",
+      "description": "Novos listas de palavras, expressões e frases diarias para você aprender.",
       "bullets": {
-        "intelligentCategorization": {
-          "title": "Categorização Inteligente",
-          "description": "Classifica automaticamente suas transações para insights perfeitamente claros."
+        "bullet1": {
+          "title": "Expressões e Frases",
+          "description": "Entenda de uma vez por todas aquelas frases de filmes e séries que você nunca entendeu."
         },
-        "customizableGoals": {
-          "title": "Metas Personalizáveis",
-          "description": "Defina e acompanhe objetivos financeiros que são importantes para você."
+        "bullet2": {
+          "title": "Fale de maneira natural",
+          "description": "Aprenda a falar inglês de forma natural, com girias e entenda como os nativos falam no dia a dia."
         },
-        "predictiveAnalysis": {
-          "title": "Análise Preditiva",
-          "description": "Antecipe-se às suas finanças com previsões de gastos e alertas."
+        "bullet3": {
+          "title": "Fale rápidamente com contrações informais",
+          "description": "Aprenda a falar inglês de forma rápida e natural com contrações informais, como é usado diariamente pelos nativos."
         }
       }
     },
-    "seamlessInvesting": {
-      "title": "Investimento Simplificado",
-      "description": "Comece a construir riqueza hoje, sem necessidade de formação financeira. O Finwise torna o investimento acessível e descomplicado.",
+    "section2": {
+      "title": "Aprenda com exemplos reais",
+      "description": "Aprenda com exemplos reais em vídeos e muito mais.",
       "bullets": {
-        "microInvesting": {
-          "title": "Micro-Investimento",
-          "description": "Comece com apenas R$5 e veja seu dinheiro crescer."
+        "bullet1": {
+          "title": "Contextos e exemplos reais",
+          "description": "Seu cérebro ira memorizar melhor com contextos e exemplos reais."
         },
-        "expertPortfolios": {
-          "title": "Portfólios Especializados",
-          "description": "Escolha entre estratégias de investimento adaptadas à sua tolerância ao risco."
-        },
-        "realTimePerformance": {
-          "title": "Desempenho em Tempo Real",
-          "description": "Acompanhe seus investimentos com métricas e visuais fáceis de entender."
+        "bullet2": {
+          "title": "Sem enrolação, apenas o essencial",
+          "description": "Feito para você aprender o essencial e falar inglês desde o primeiro dia."
         }
       }
     },
-    "bankGradeSecurity": {
-      "title": "Segurança de Nível Bancário",
-      "description": "Seus dados financeiros merecem a melhor proteção. Fique tranquilo sabendo que o Finwise emprega medidas de segurança de ponta.",
+    "section3": {
+      "title": "Simplicidade e facilidade",
+      "description": "Feito para você os estudantes aprender o essencial e falar inglês do dia a dia.",
       "bullets": {
-        "militaryGradeEncryption": {
-          "title": "Criptografia de Nível Militar",
-          "description": "Suas informações são protegidas com o mais alto nível de criptografia."
+        "bullet1": {
+          "title": "Simples e prático",
+          "description": "Feito para você aprender sem enrolação, apenas memorize e pratique."
         },
-        "biometricAuthentication": {
-          "title": "Autenticação Biométrica",
-          "description": "Acesse sua conta com segurança usando reconhecimento de impressão digital ou facial."
-        },
-        "realTimeFraudDetection": {
-          "title": "Detecção de Fraude em Tempo Real",
-          "description": "Nosso sistema monitora constantemente atividades suspeitas para manter seu dinheiro seguro."
+        "bullet2": {
+          "title": "Conteudos atualizados diariamente",
+          "description": "Tenha novos conteudos e atualizações diariamente."
         }
       }
     }
   },
-  "testimonials": {
-    "title": "O Que Nossos Clientes Dizem",
-    "johnSmith": {
-      "name": "John Smith",
-      "role": "CEO de Empresa",
-      "message": "Os insights orientados por IA do Finwise transformaram nossa abordagem de planejamento financeiro para nossos clientes. É um recurso inestimável no cenário financeiro moderno."
-    },
-    "janeDoe": {
-      "name": "Jane Doe",
-      "role": "CTO de Startup",
-      "message": "Como CTO, estou impressionada com as medidas de segurança robustas e integrações perfeitas do Finwise. É raro encontrar um aplicativo que equilibre facilidade de uso com tecnologia tão avançada."
-    },
-    "emilyJohnson": {
-      "name": "Emily Johnson",
-      "role": "Gerente de Produto",
-      "message": "O Finwise está revolucionando a gestão financeira pessoal. Seu design intuitivo e recursos poderosos o tornam uma ferramenta indispensável para qualquer pessoa séria sobre crescimento financeiro."
-    }
-  },
-  "Terms": {
+  "terms": {
     "title": "Termos e Condições",
     "description": "Por favor, leia estes termos e condições cuidadosamente antes de usar nosso serviço.",
     "section1": {
@@ -178,7 +110,7 @@
       "content": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco."
     }
   },
-  "Privacy": {
+  "privacy": {
     "title": "Política de Privacidade",
     "description": "Esta Política de Privacidade descreve como coletamos, usamos e compartilhamos suas informações pessoais.",
     "section1": {

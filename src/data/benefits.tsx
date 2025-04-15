@@ -1,17 +1,14 @@
 import {
-  FiBarChart2,
-  FiBriefcase,
-  FiDollarSign,
-  FiLock,
-  FiPieChart,
-  FiShield,
+  FiBookOpen,
+  FiCheckCircle,
   FiTarget,
+  FiThumbsUp,
   FiTrendingUp,
-  FiUser,
+  FiUserCheck,
+  FiYoutube,
 } from "react-icons/fi";
-
-import { IBenefit } from "@/types";
 import { useLocale } from "next-intl";
+import { IBenefit } from "@/types";
 
 // Custom React Hook for getting image path based on locale
 export function useImagePath(imageNumber: string): string {
@@ -26,77 +23,57 @@ export function useImagePath(imageNumber: string): string {
 
 export const benefits: IBenefit[] = [
   {
-    title: "Smart Budgeting",
-    description:
-      "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+    title: "benefits.section1.title",
+    description: "benefits.section1.description",
     bullets: [
       {
-        title: "Intelligent Categorization",
-        description:
-          "Automatically sorts your transactions for crystal-clear insights.",
-        icon: <FiBarChart2 size={26} />,
+        title: "benefits.section1.bullets.bullet1.title",
+        description: "benefits.section1.bullets.bullet1.description",
+        icon: <FiBookOpen size={26} />,
       },
       {
-        title: "Customizable Goals",
-        description: "Set and track financial objectives that matter to you.",
-        icon: <FiTarget size={26} />,
+        title: "benefits.section1.bullets.bullet2.title",
+        description: "benefits.section1.bullets.bullet2.description",
+        icon: <FiCheckCircle size={26} />,
       },
       {
-        title: "Predictive Analysis",
-        description:
-          "Get ahead of your finances with spending forecasts and alerts.",
-        icon: <FiTrendingUp size={26} />,
+        title: "benefits.section1.bullets.bullet3.title",
+        description: "benefits.section1.bullets.bullet3.description",
+        icon: <FiUserCheck size={26} />,
       },
     ],
     imageSrc: 1,
   },
   {
-    title: "Seamless Investing",
-    description:
-      "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+    title: "benefits.section2.title",
+    description: "benefits.section2.description",
     bullets: [
       {
-        title: "Micro-Investing",
-        description: "Begin with as little as $1 and watch your money grow.",
-        icon: <FiDollarSign size={26} />,
+        title: "benefits.section2.bullets.bullet1.title",
+        description: "benefits.section2.bullets.bullet1.description",
+        icon: <FiYoutube size={26} />,
       },
       {
-        title: "Expert Portfolios",
-        description:
-          "Choose from investment strategies tailored to your risk tolerance.",
-        icon: <FiBriefcase size={26} />,
-      },
-      {
-        title: "Real-Time Performance",
-        description:
-          "Track your investments with easy-to-understand metrics and visuals.",
-        icon: <FiPieChart size={26} />,
+        title: "benefits.section2.bullets.bullet2.title",
+        description: "benefits.section2.bullets.bullet2.description",
+        icon: <FiTarget size={26} />,
       },
     ],
     imageSrc: 2,
   },
   {
-    title: "Bank-Grade Security",
-    description:
-      "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+    title: "benefits.section3.title",
+    description: "benefits.section3.description",
     bullets: [
       {
-        title: "Military-Grade Encryption",
-        description:
-          "Your information is safeguarded with the highest level of encryption.",
-        icon: <FiLock size={26} />,
+        title: "benefits.section3.bullets.bullet1.title",
+        description: "benefits.section3.bullets.bullet1.description",
+        icon: <FiThumbsUp size={26} />,
       },
       {
-        title: "Biometric Authentication",
-        description:
-          "Access your account securely with fingerprint or facial recognition.",
-        icon: <FiUser size={26} />,
-      },
-      {
-        title: "Real-Time Fraud Detection",
-        description:
-          "Our system constantly monitors for suspicious activity to keep your money safe.",
-        icon: <FiShield size={26} />,
+        title: "benefits.section3.bullets.bullet2.title",
+        description: "benefits.section3.bullets.bullet2.description",
+        icon: <FiTrendingUp size={26} />,
       },
     ],
     imageSrc: 3,

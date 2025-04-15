@@ -1,142 +1,74 @@
 {
   "hero": {
-    "heading": "Smart, Secure, Simple Financial Management",
-    "subheading": "From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before"
+    "heading": "Fluent Flow: Speak English like a native",
+    "subheading": "Learn everyday expressions, slang, and informal terms easily and in a fun way"
   },
   "cta": {
-    "heading": "Join Over 1 Million Users To Transform Your Finances",
-    "subheading": "Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!"
+    "heading": "Join over 10 thousand users",
+    "subheading": "Understand and speak everyday English, level up your English with Fluent Flow"
   },
   "footer": {
-    "subheading": "Empowering businesses with cutting-edge financial technology solutions.",
-    "quickLinks": "Quick Links",
-    "contactUs": "Contact Us",
-    "email": "Email:",
-    "phone": "Phone:",
     "copyright": "Copyright © {year} {siteName}. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Ask us anything!",
-    "contactEmail": "help@finwise.com",
-    "questions": [
-      {
-        "question": "Is Finwise secure?",
-        "answer": "Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security."
-      },
-      {
-        "question": "Can I use Finwise on multiple devices?",
-        "answer": "Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer."
-      },
-      {
-        "question": "Can I connect all my bank accounts?",
-        "answer": "Yes! Finwise supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts."
-      },
-      {
-        "question": "Do I need any financial expertise to use the investing features?",
-        "answer": "Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level."
-      },
-      {
-        "question": "What if I need help using the app?",
-        "answer": "Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise."
-      }
-    ]
-  },
-  "header": {
-    "download": "Download",
-    "getStarted": "Get Started",
-    "toggleNavigation": "Toggle navigation"
-  },
   "appStore": {
-    "downloadOn": "Download on the",
+    "downloadOn": "Download on",
     "appStore": "App Store"
   },
   "playStore": {
     "getItOn": "GET IT ON",
     "googlePlay": "Google Play"
   },
-  "menuItems": {
-    "features": "Features",
-    "pricing": "Pricing",
-    "testimonials": "Testimonials"
-  },
   "benefits": {
-    "smartBudgeting": {
-      "title": "Smart Budgeting",
-      "description": "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+    "section1": {
+      "title": "Speak English like a native speaker",
+      "description": "New lists of words, expressions, and daily phrases for you to learn.",
       "bullets": {
-        "intelligentCategorization": {
-          "title": "Intelligent Categorization",
-          "description": "Automatically sorts your transactions for crystal-clear insights."
+        "bullet1": {
+          "title": "Expressions and Phrases",
+          "description": "Finally understand those phrases from movies and TV shows that you never quite got."
         },
-        "customizableGoals": {
-          "title": "Customizable Goals",
-          "description": "Set and track financial objectives that matter to you."
+        "bullet2": {
+          "title": "Speak naturally",
+          "description": "Learn to speak English naturally, with slang and understand how natives speak in everyday life."
         },
-        "predictiveAnalysis": {
-          "title": "Predictive Analysis",
-          "description": "Get ahead of your finances with spending forecasts and alerts."
+        "bullet3": {
+          "title": "Speak quickly with informal contractions",
+          "description": "Learn to speak English quickly and naturally with informal contractions, as used daily by native speakers."
         }
       }
     },
-    "seamlessInvesting": {
-      "title": "Seamless Investing",
-      "description": "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+    "section2": {
+      "title": "Learn with real examples",
+      "description": "Learn with real examples in videos and much more.",
       "bullets": {
-        "microInvesting": {
-          "title": "Micro-Investing",
-          "description": "Begin with as little as $1 and watch your money grow."
+        "bullet1": {
+          "title": "Real contexts and examples",
+          "description": "Your brain will memorize better with real contexts and examples."
         },
-        "expertPortfolios": {
-          "title": "Expert Portfolios",
-          "description": "Choose from investment strategies tailored to your risk tolerance."
-        },
-        "realTimePerformance": {
-          "title": "Real-Time Performance",
-          "description": "Track your investments with easy-to-understand metrics and visuals."
+        "bullet2": {
+          "title": "No fluff, just the essentials",
+          "description": "Made for you to learn the essentials and speak English from day one."
         }
       }
     },
-    "bankGradeSecurity": {
-      "title": "Bank-Grade Security",
-      "description": "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+    "section3": {
+      "title": "Simplicity and ease",
+      "description": "Made for students to learn the essentials and speak everyday English.",
       "bullets": {
-        "militaryGradeEncryption": {
-          "title": "Military-Grade Encryption",
-          "description": "Your information is safeguarded with the highest level of encryption."
+        "bullet1": {
+          "title": "Simple and practical",
+          "description": "Made for you to learn without complications, just memorize and practice."
         },
-        "biometricAuthentication": {
-          "title": "Biometric Authentication",
-          "description": "Access your account securely with fingerprint or facial recognition."
-        },
-        "realTimeFraudDetection": {
-          "title": "Real-Time Fraud Detection",
-          "description": "Our system constantly monitors for suspicious activity to keep your money safe."
+        "bullet2": {
+          "title": "Content updated daily",
+          "description": "Get new content and updates daily."
         }
       }
     }
   },
-  "testimonials": {
-    "title": "What Our Customers Say",
-    "johnSmith": {
-      "name": "John Smith",
-      "role": "CEO at Company",
-      "message": "Finwise's AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape."
-    },
-    "janeDoe": {
-      "name": "Jane Doe",
-      "role": "CTO at Startup",
-      "message": "As a CTO, I'm impressed by Finwise's robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology."
-    },
-    "emilyJohnson": {
-      "name": "Emily Johnson",
-      "role": "Product Manager",
-      "message": "Finwise is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth."
-    }
-  },
-  "Terms": {
+  "terms": {
     "title": "Terms and Conditions",
     "description": "Please read these terms and conditions carefully before using our service.",
     "section1": {
@@ -148,7 +80,7 @@
       "content": "\"Service\" refers to the application.<br />\"You\" refers to the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service."
     },
     "section3": {
-      "title": "3. Usage Terms",
+      "title": "3. Terms of Use",
       "intro": "You agree not to misuse our Service or help anyone else do so. For example, you must not attempt to:",
       "items": {
         "1": "Probe, scan, or test the vulnerability of any system or network",
@@ -163,11 +95,11 @@
     },
     "section5": {
       "title": "5. Termination",
-      "content": "We may terminate or suspend your access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+      "content": "We may terminate or suspend your access to our Service immediately, without prior notice or liability, for any reason, including, without limitation, if you breach the Terms."
     },
     "section6": {
       "title": "6. Limitation of Liability",
-      "content": "In no event shall we be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+      "content": "In no event will we be liable for any indirect, incidental, special, consequential or punitive damages, including, without limitation, loss of profits, data, use, goodwill, or other intangible losses."
     },
     "section7": {
       "title": "7. Changes",
@@ -178,7 +110,7 @@
       "content": "If you have any questions about these Terms, please contact us."
     }
   },
-  "Privacy": {
+  "privacy": {
     "title": "Privacy Policy",
     "description": "This Privacy Policy describes how we collect, use, and share your personal information.",
     "section1": {
@@ -205,8 +137,8 @@
       "title": "3. Information Sharing and Disclosure",
       "intro": "We do not share your personal information except in the following limited circumstances:",
       "items": {
-        "1": "<strong>With Your Consent:</strong> We will share your personal information with companies, organizations, or individuals outside of our company when we have your consent to do so.",
-        "2": "<strong>For Legal Reasons:</strong> We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to comply with any applicable law, regulation, legal process, or enforceable governmental request.",
+        "1": "<strong>With Your Consent:</strong> We will share your personal information with companies, organizations, or individuals outside our company when we have your consent to do so.",
+        "2": "<strong>For Legal Reasons:</strong> We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to comply with any applicable law, regulation, legal process, or governmental request.",
         "3": "<strong>With Service Providers:</strong> We may share your information with third-party vendors, consultants, and other service providers who are working on our behalf."
       }
     },
@@ -216,11 +148,11 @@
     },
     "section5": {
       "title": "5. Your Rights",
-      "content": "Depending on your location, you may have certain rights regarding your personal information, such as the right to access, correct, delete, or restrict processing of your personal information."
+      "content": "Depending on your location, you may have certain rights regarding your personal information, such as the right to access, correct, delete, or restrict the processing of your personal information."
     },
     "section6": {
       "title": "6. Children's Privacy",
-      "content": "Our Service is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13."
+      "content": "Our Service is not directed to children under 13, and we do not knowingly collect personal information from children under 13."
     },
     "section7": {
       "title": "7. Changes to This Privacy Policy",

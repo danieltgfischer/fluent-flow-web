@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
           })}
         </p>
         <div className="flex flex-row gap-4 w-full justify-center">
-          <IntlLink href="/privacy-policy">{t("privacyPolicy")}</IntlLink>
-          <IntlLink href="/terms-of-service">{t("termsOfService")}</IntlLink>
+          <IntlLink href="/privacy">{t("privacyPolicy")}</IntlLink>
+          <IntlLink href="/terms">{t("termsOfService")}</IntlLink>
         </div>
       </div>
     </footer>

@@ -7,6 +7,7 @@ import BenefitBullet from "./BenefitBullet";
 import SectionTitle from "../SectionTitle";
 import { IBenefit } from "@/types";
 import { useImagePath } from "@/data/benefits";
+import { useTranslations } from "next-intl";
 interface Props {
   benefit: IBenefit;
   imageAtRight?: boolean;
@@ -48,7 +49,7 @@ export const childVariants = {
 
 const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
   const { title, description, imageSrc, bullets } = benefit;
-
+  const t = useTranslations();
   return (
     <section className="benefit-section">
       <motion.div
@@ -70,11 +71,11 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
               variants={childVariants}
             >
               <SectionTitle>
-                <h3 className="lg:max-w-2xl">{title}</h3>
+                <h3 className="lg:max-w-2xl">{t(title)}</h3>
               </SectionTitle>
 
-              <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent">
-                {description}
+              <p className="mt-1.5 lg:mx-36 text-left lg:ml-0 leading-normal text-foreground-accent">
+                {t(description)}
               </p>
             </motion.div>
 
@@ -82,9 +83,9 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
               {bullets.map((item, index) => (
                 <BenefitBullet
                   key={index}
-                  title={item.title}
+                  title={t(item.title)}
                   icon={item.icon}
-                  description={item.description}
+                  description={t(item.description)}
                 />
               ))}
             </div>
