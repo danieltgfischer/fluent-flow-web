@@ -73,25 +73,25 @@
     "description": "Por favor, leia estes termos e condições cuidadosamente antes de usar nosso serviço.",
     "section1": {
       "title": "1. Introdução",
-      "content": "Bem-vindo ao nosso aplicativo. Ao acessar ou usar nosso aplicativo, você concorda em estar vinculado a estes Termos e Condições e à nossa Política de Privacidade."
+      "content": "Bem-vindo ao nosso aplicativo de aprendizado de inglês. Ao acessar ou usar nosso aplicativo, você concorda em estar vinculado a estes Termos e Condições e à nossa Política de Privacidade."
     },
     "section2": {
       "title": "2. Definições",
-      "content": "\"Serviço\" refere-se ao aplicativo.<br />\"Você\" refere-se ao indivíduo que acessa ou usa o Serviço, ou a empresa, ou outra entidade legal em nome da qual tal indivíduo está acessando ou usando o Serviço."
+      "content": "\"Serviço\" refere-se ao aplicativo de aprendizado de inglês.<br />\"Você\" refere-se ao indivíduo que acessa ou usa o Serviço, ou a empresa, ou outra entidade legal em nome da qual tal indivíduo está acessando ou usando o Serviço."
     },
     "section3": {
       "title": "3. Termos de Uso",
       "intro": "Você concorda em não usar indevidamente nosso Serviço ou ajudar qualquer outra pessoa a fazê-lo. Por exemplo, você não deve tentar:",
       "items": {
-        "1": "Sondar, escanear ou testar a vulnerabilidade de qualquer sistema ou rede",
-        "2": "Violar ou contornar quaisquer medidas de segurança ou autenticação",
-        "3": "Acessar, adulterar ou usar áreas não públicas do Serviço",
-        "4": "Interferir ou interromper qualquer usuário, host ou rede"
+        "1": "Copiar, modificar ou distribuir o conteúdo do aplicativo sem permissão",
+        "2": "Usar o Serviço para fins comerciais sem autorização",
+        "3": "Acessar dados de outros usuários ou do sistema sem permissão",
+        "4": "Interferir no funcionamento do Firebase ou de vídeos do YouTube integrados"
       }
     },
     "section4": {
       "title": "4. Propriedade Intelectual",
-      "content": "Nosso Serviço e seu conteúdo original, recursos e funcionalidade são e permanecerão propriedade exclusiva de nossa empresa e seus licenciadores."
+      "content": "Nosso Serviço e seu conteúdo original, como textos e coleções de estudo, são e permanecerão propriedade exclusiva do desenvolvedor e seus licenciadores, protegidos por leis de direitos autorais."
     },
     "section5": {
       "title": "5. Rescisão",
@@ -99,15 +99,15 @@
     },
     "section6": {
       "title": "6. Limitação de Responsabilidade",
-      "content": "Em nenhum caso seremos responsáveis por danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de lucros, dados, uso, boa vontade ou outras perdas intangíveis."
+      "content": "Em nenhum caso seremos responsáveis por danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de dados ou outras perdas intangíveis resultantes do uso do Serviço."
     },
     "section7": {
       "title": "7. Alterações",
-      "content": "Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento."
+      "content": "Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. As alterações serão publicadas no aplicativo."
     },
     "section8": {
       "title": "8. Contate-nos",
-      "content": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco."
+      "content": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em [inserir e-mail de contato]."
     }
   },
   "privacy": {
@@ -117,9 +117,9 @@
       "title": "1. Informações que Coletamos",
       "intro": "Podemos coletar os seguintes tipos de informações:",
       "items": {
-        "1": "<strong>Informações Pessoais:</strong> Como seu nome, endereço de e-mail, número de telefone e outros detalhes de contato quando você se registra para uma conta ou nos contata.",
-        "2": "<strong>Dados de Uso:</strong> Informações sobre como você usa nosso aplicativo, incluindo horários de acesso, páginas visualizadas e as rotas pelas quais você acessa nosso aplicativo.",
-        "3": "<strong>Informações do Dispositivo:</strong> Informações sobre o dispositivo que você usa para acessar nosso aplicativo, incluindo modelo de hardware, sistema operacional e tipo de navegador."
+        "1": "Informações Pessoais: Como seu nome e endereço de e-mail quando você se registra para uma conta.",
+        "2": "Dados de Uso: Informações sobre como você usa nosso aplicativo, incluindo coleções acessadas e vídeos assistidos.",
+        "3": "Informações do Dispositivo: Informações sobre o dispositivo que você usa para acessar nosso aplicativo, incluindo modelo de hardware e sistema operacional."
       }
     },
     "section2": {
@@ -127,28 +127,28 @@
       "intro": "Usamos as informações que coletamos para:",
       "items": {
         "1": "Fornecer, manter e melhorar nossos serviços",
-        "2": "Processar transações e enviar informações relacionadas",
-        "3": "Responder a comentários, perguntas e solicitações",
-        "4": "Enviar-lhe avisos técnicos, atualizações, alertas de segurança e mensagens de suporte",
-        "5": "Entender e analisar as tendências de uso de nossos usuários"
+        "2": "Personalizar sua experiência de aprendizado",
+        "3": "Enviar notificações relacionadas ao aplicativo",
+        "4": "Analisar tendências de uso para aprimorar o conteúdo",
+        "5": "Garantir o funcionamento adequado do Firebase"
       }
     },
     "section3": {
       "title": "3. Compartilhamento e Divulgação de Informações",
       "intro": "Não compartilhamos suas informações pessoais, exceto nas seguintes circunstâncias limitadas:",
       "items": {
-        "1": "<strong>Com Seu Consentimento:</strong> Compartilharemos suas informações pessoais com empresas, organizações ou indivíduos fora de nossa empresa quando tivermos seu consentimento para fazê-lo.",
-        "2": "<strong>Por Motivos Legais:</strong> Compartilharemos informações pessoais se tivermos a crença de boa-fé de que o acesso, uso, preservação ou divulgação das informações é razoavelmente necessário para cumprir qualquer lei, regulamento, processo legal ou solicitação governamental aplicável.",
-        "3": "<strong>Com Provedores de Serviços:</strong> Podemos compartilhar suas informações com fornecedores terceirizados, consultores e outros provedores de serviços que estão trabalhando em nosso nome."
+        "1": "Com Seu Consentimento: Compartilharemos suas informações pessoais com terceiros quando tivermos seu consentimento para fazê-lo.",
+        "2": "Por Motivos Legais: Compartilharemos informações pessoais se acreditarmos de boa-fé que é necessário para cumprir leis, regulamentos ou solicitações governamentais.",
+        "3": "Com Provedores de Serviços: Podemos compartilhar suas informações com o Firebase, que armazena dados para fornecer o serviço."
       }
     },
     "section4": {
       "title": "4. Segurança de Dados",
-      "content": "Implementamos medidas técnicas e organizacionais apropriadas para proteger as informações pessoais que coletamos e processamos sobre você. As medidas que tomamos são projetadas para fornecer um nível de segurança apropriado ao risco de processar suas informações pessoais."
+      "content": "Implementamos medidas técnicas e organizacionais apropriadas para proteger as informações pessoais que coletamos e processamos sobre você."
     },
     "section5": {
       "title": "5. Seus Direitos",
-      "content": "Dependendo da sua localização, você pode ter certos direitos em relação às suas informações pessoais, como o direito de acessar, corrigir, excluir ou restringir o processamento de suas informações pessoais."
+      "content": "Você tem o direito de acessar, corrigir ou excluir suas informações pessoais, bem como restringir o processamento de seus dados, sujeito às leis aplicáveis."
     },
     "section6": {
       "title": "6. Privacidade das Crianças",
@@ -156,11 +156,11 @@
     },
     "section7": {
       "title": "7. Alterações a Esta Política de Privacidade",
-      "content": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página."
+      "content": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade no aplicativo."
     },
     "section8": {
       "title": "8. Contate-nos",
-      "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco."
+      "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em danieltgfisc@gmail.com."
     }
   }
 }
