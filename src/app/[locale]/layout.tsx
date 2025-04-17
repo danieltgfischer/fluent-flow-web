@@ -59,7 +59,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <NextIntlClientProvider>
         <body
-          className={`${manrope.className} ${sourceSans.className} antialiased`}
+          className={`${manrope.className} ${sourceSans.className} antialiased bg-[#FDF8F7]`}
         >
           {siteDetails.googleAnalyticsId && (
             <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />
