@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import AppStoreButton from "./AppStoreButton";
-import PlayStoreButton from "./PlayStoreButton";
+// import PlayStoreButton from "./PlayStoreButton";
 
 const CTA: React.FC = () => {
   const t = useTranslations("cta");
@@ -20,7 +20,7 @@ const CTA: React.FC = () => {
 
             <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
               <AppStoreButton />
-              <PlayStoreButton />
+              {/*  <PlayStoreButton /> */}
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const AppStoreButton = ({ dark }: { dark?: boolean }) => {
   const t = useTranslations("appStore");
 
   return (
-    <a href={ctaDetails.appStoreUrl}>
+    <a href={ctaDetails.appStoreUrl} target="_blank" rel="noopener noreferrer">
       <button
         type="button"
         className={clsx(

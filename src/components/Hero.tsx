@@ -2,7 +2,7 @@
 import React from "react";
 
 import AppStoreButton from "./AppStoreButton";
-import PlayStoreButton from "./PlayStoreButton";
+// import PlayStoreButton from "./PlayStoreButton";
 import { useTranslations } from "next-intl";
 
 const Hero: React.FC = () => {
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         </p>
         <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
           <AppStoreButton dark />
-          <PlayStoreButton dark />
+          {/*  <PlayStoreButton dark /> */}
         </div>
       </div>
     </section>
